@@ -1,11 +1,7 @@
 version: "3.3"
 services:
   php-laravel-webcrawler:
+    image: oworyoakim/webcrawler-laravel
     container_name: php-laravel-webcrawler
-    build:
-      context: .
-      dockerfile: Dockerfile
     ports:
       - 4040:80
-    volumes:
-      - ./:/var/www/html
