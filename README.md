@@ -1,4 +1,7 @@
 # webcrawler-php
 A simple web crawler  implemented in PHP
 ## Run the application
-`docker-compose up -d --build`
+### Build the container
+`docker build -t oworyoakim/webcrawler-laravel .`
+### Run the container
+`docker-compose up -d`
