@@ -1,11 +1,7 @@
 version: "3.3"
 services:
-  php74-phalcon:
-    container_name: php74-phalcon
-    build:
-      context: .
-      dockerfile: Dockerfile
+  webcrawler-php:
+    image: oworyoakim/webcrawler-php
+    container_name: webcrawler-php
     ports:
-      - 4040:80
-    volumes:
-      - ./:/var/www/html
+      - 4041:80

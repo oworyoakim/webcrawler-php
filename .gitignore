@@ -1,1 +1,8 @@
 .idea/
+/node_modules/
+/app
+/bootstrap
+/database
+/storage
+/vendor
+.env

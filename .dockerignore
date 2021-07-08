@@ -1,0 +1,13 @@
+/node_modules
+/storage
+/app
+/bootstrap
+/database
+/vendor
+/.idea
+/.vs
+docker-compose.yml
+Dockerfile
+.DS_Store
+/*/.DS_Store
+.env
