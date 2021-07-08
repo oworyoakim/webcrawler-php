@@ -70,7 +70,7 @@ class Crawler
     public function avgWordCount()
     {
         $totalWords = array_reduce($this->pages, function ($words, Page $page) {
-            return $words + $page->uniqueWords;
+            return $words + $page->totalWords;
         }, 0);
         $totalPages = count($this->pages);
         return round($totalWords / $totalPages);
