@@ -1,5 +1,10 @@
 <?php
 
+namespace App\Services;
+
+use DOMDocument;
+use DOMXPath;
+
 class Crawler
 {
     private $basePath = null;

@@ -1,7 +1,7 @@
 version: "3.3"
 services:
-  php74-phalcon:
-    container_name: php74-phalcon
+  php-laravel-webcrawler:
+    container_name: php-laravel-webcrawler
     build:
       context: .
       dockerfile: Dockerfile

@@ -1,6 +1,9 @@
 <?php
 
 
+namespace App\Services;
+
+
 class Page
 {
     public $link = '';
