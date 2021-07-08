@@ -55,9 +55,6 @@ do {
                         </tbody>
                     </table>
                 </div>
-                <div class="card-footer">
-
-                </div>
             </div>
             <ul class="list-group my-5">
                 <li class="list-group-item bg-secondary text-white">Statistics</li>

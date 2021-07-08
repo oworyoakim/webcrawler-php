@@ -152,7 +152,7 @@ class Crawler
         foreach ($hrefs as $href)
         {
             $val = strtolower($href->nodeValue);
-            // Internal links start with the basePath, otherwise they are external since they already start with http
+            // Internal links start with the basePath or subdomain, otherwise they are external since they already start with http
             if (substr($val, 0, strlen($this->basePath)) === $this->basePath)
             {
                 if (!in_array($val, array_values($this->internalLinks)))
